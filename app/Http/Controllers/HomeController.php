@@ -1,10 +1,9 @@
 <?php
+
 namespace App\Http\Controllers;
+
 use Illuminate\Http\Request;
-use App\User;
-use App\Blog;
-use Illuminate\Support\Facades\Auth;
-use Carbon\Carbon;
+
 class HomeController extends Controller
 {
     /**
@@ -16,6 +15,7 @@ class HomeController extends Controller
     {
         $this->middleware('auth');
     }
+    
     /**
      * Show the application dashboard.
      *
@@ -23,7 +23,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $blogs = Auth::user()->blogs()->orderBy('created_at', 'INC')->get();
-        return view('home', compact('blogs'));
+        return view('home');
     }
 }
