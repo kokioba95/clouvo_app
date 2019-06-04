@@ -14,5 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
 Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/my_profile', 'HomeController@index')->name('my_profile');
+Route::get('/event_list', 'EventController@list')->name('event_list');

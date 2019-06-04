@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+                <div class="card-header text-center">{{ __('Register') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
@@ -55,10 +55,9 @@
                                 @endif
                             </div>
                         </div>
-
+                        <!--
                         <div class="form-group row {{ $errors->has('birth') || $errors->has('birth_year') || $errors->has('birth_month') || $errors->has('birth_day') ? ' has-error' : '' }}">
-                            <label for="birth_year" class="col-md-4 col-form-label text-md-right">Birthday　DD/MM/YYYY </label>
-
+                            <label for="birth_year" class="col-md-4 col-form-label text-md-right">Birthday</label>
                             <div class="form-group row col-md-8">
 
                                 <div class="col-md-4">
@@ -115,8 +114,8 @@
                                 </span>
                             @endif
                             </div>
-
                         </div>
+                        -->
 
                         <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
@@ -161,6 +160,7 @@
                                 </button>
                             </div>
                         </div>
+
                     </form>
                 </div>
             </div>
