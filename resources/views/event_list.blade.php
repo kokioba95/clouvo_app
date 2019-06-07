@@ -9,30 +9,32 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <title>Clou-Vo</title>
     </head>
-    <div class="text-rigth full-height" style="background-color:#f08300">
 
-    <p class="text-right">Login Register</p>  
-    <!--   
-        @if (Route::has('login'))
-            <div class="text-right links">
-                @auth
-                    <a href="{{ url('/home') }}">Home</a>
-                @else
-                    <a href="{{ route('login') }}">Login</a>
+    <div class="row" style="background-color:#f08300">
+        <div class="col-sm-6 text-left full-height">
+        <a href="/">Clouvo</a>
+        </div>
+        <div class="col-sm-6 text-rigth full-height">
 
-                    @if (Route::has('register'))
-                        <a href="{{ route('register') }}">Register</a>
-                    @endif
-                @endauth
-            </div>
-        @endif
-    -->
+            @if (Route::has('login'))
+                <div class="text-right links">
+                    @auth
+                        <a href="{{ url('/home') }}">Home</a>
+                    @else
+                        <a href="{{ route('login') }}">Login</a>
+
+                        @if (Route::has('register'))
+                            <a href="{{ route('register') }}">Register</a>
+                        @endif
+                    @endauth
+                </div>
+            @endif
+        </div>
     </div>
-
 
             <body>
                 <div class="container">
-                    <div row>
+                    <div class="row">
                         <div class="col-sm-1" style="background-color:white">
                         </div>
                         <div class="col-sm-10" style="background-color:snow">
