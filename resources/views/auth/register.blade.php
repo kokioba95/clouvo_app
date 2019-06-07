@@ -55,67 +55,6 @@
                                 @endif
                             </div>
                         </div>
-                        <!--
-                        <div class="form-group row {{ $errors->has('birth') || $errors->has('birth_year') || $errors->has('birth_month') || $errors->has('birth_day') ? ' has-error' : '' }}">
-                            <label for="birth_year" class="col-md-4 col-form-label text-md-right">Birthday</label>
-                            <div class="form-group row col-md-8">
-
-                                <div class="col-md-4">
-                                    <select id="birth_day" class="form-control" name="birth_day">
-                                    <option value="">DD</option>
-                                    @for ($i = 1; $i <= 31; $i++)
-                                    <option value="{{ $i }}"@if(old('birth_day') == $i) selected @endif>{{ $i }}</option>
-                                    @endfor
-                                    </select>
-
-                                    @if ($errors->has('birth_day'))
-                                        <span class="help-block">
-                                            <strong>{{ $errors->first('birth_day') }}</strong>
-                                        </span>
-                                    @endif
-                                </div>
-
-                                <div class="col-md-4">
-                                    <select id="birth_month" class="form-control" name="birth_month">
-                                    <option value="">MM</option>
-                                    @for ($i = 1; $i <= 12; $i++)
-                                    <option value="{{ $i }}"@if(old('birth_month') == $i) selected @endif>{{ $i }}</option>
-                                    @endfor
-                                    </select>
-
-                                    @if ($errors->has('birth_month'))
-                                        <span class="help-block">
-                                            <strong>{{ $errors->first('birth_month') }}</strong>
-                                        </span>
-                                    @endif
-                                </div>
-
-                                <div class="col-md-4">
-                                    <select id="birth_year" class="form-control" name="birth_year">
-                                    <option value="">YYYY</option>
-                                    @for ($i = 1940; $i <= 2019; $i++)
-                                    <option value="{{ $i }}"@if(old('birth_year') == $i) selected @endif>{{ $i }}</option>
-                                    @endfor
-                                    </select>
-
-                                    @if ($errors->has('birth_year'))
-                                        <span class="help-block">
-                                            <strong>{{ $errors->first('birth_year') }}</strong>
-                                        </span>
-                                    @endif
-                                </div>
-
-                            </div>
-
-                            <div class="row col-md-6 col-md-offset-4">
-                            @if ($errors->has('birth'))
-                                <span class="help-block">
-                                    <strong>{{ $errors->first('birth') }}</strong>
-                                </span>
-                            @endif
-                            </div>
-                        </div>
-                        -->
 
                         <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>

@@ -30,21 +30,5 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
-    public function blogs()
-    {
-        return $this->hasMany('App\Blog');
-    }
-    public function follower()
-    {
-        return $this->belongsToMany('App\User', 'relationships', 'followed_id', 'follower_id');
-    }
-    public function following()
-    {
-        return $this->belongsToMany('App\User', 'relationships', 'follower_id', 'followed_id');
-    }
-    public function like_user()
-    {
-        return $this->belongsToMany('App\User', 'likes', 'user_id', 'blog_id');
-    } 
 
 }
