@@ -15,5 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 Auth::routes();
+<<<<<<< Updated upstream
 Route::get('/my_profile', 'HomeController@index')->name('my_profile');
 Route::get('/event_list', 'EventController@list')->name('event_list');
+=======
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/event_info', 'EventController@info')->name('event_info');
+>>>>>>> Stashed changes
