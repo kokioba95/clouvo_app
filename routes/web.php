@@ -17,3 +17,4 @@ Route::get('/', function () {
 Auth::routes();
 Route::get('/my_profile', 'HomeController@index')->name('my_profile');
 Route::get('/event_list', 'EventController@list')->name('event_list');
+Route::get('/event_info', 'EventController@info')->name('event_info');

@@ -10,4 +10,8 @@ class EventController extends Controller
     {
         return view('event_list');
     }
+    public function info()
+    {
+        return view('event_info');
+    }
 }
