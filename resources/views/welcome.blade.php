@@ -9,6 +9,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <title>Clou-Vo</title>
     </head>
+    <!--
     <div class="text-rigth full-height" style="background-color:#f08300">        
         @if (Route::has('login'))
             <div class="text-right links">
@@ -24,7 +25,7 @@
             </div>
         @endif
     </div>
-
+    -->
 
             <body>
                 <div>
