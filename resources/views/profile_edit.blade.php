@@ -10,7 +10,7 @@
         <div><h3>Menu</h3></div>
         <div class="list-group list-group-flush">
             <a href="/user/{{auth()->user()->id}}/edit" class="list-group-item list-group-item-action bg-light">Info Edit</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light">Supporter</a>
+            <a href="/user/{{auth()->user()->id}}/set" class="list-group-item list-group-item-action bg-light">Supporter</a>
         </div>
         </div>
 

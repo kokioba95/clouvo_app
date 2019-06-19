@@ -42,13 +42,5 @@
             <br><br><br><br>
         </div>
     </div>
-
-
-
 </div>
-<<<<<<< Updated upstream
 @endsection
-
-=======
-@endsection
->>>>>>> Stashed changes
