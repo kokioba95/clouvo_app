@@ -19,7 +19,7 @@ class Create extends Model
     ];
     public function user()
     {
-        return $this->belongsTomany('App\User');
+        return $this->belongsTo('App\User');
     }
     public function create()
     {

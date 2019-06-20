@@ -27,9 +27,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('my_profile');
+        return view('/my_profile');
     }
-
     public function create()
     {
         return view('event_create', compact('user'));

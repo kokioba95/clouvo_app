@@ -20,4 +20,10 @@ class EventController extends Controller
         $event = Event::find($id);
         return view('event_info', compact('event'));
     }
+    public function delete($id)
+    {
+        $event = Event::find($id);
+        $event->delete();
+        return redirect('/event_list');
+    }
 }

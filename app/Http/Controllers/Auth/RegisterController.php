@@ -54,6 +54,7 @@ class RegisterController extends Controller
             'group_name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:6', 'confirmed'],
+            'is_admin' => ['null'],
         ]);
     }
 
@@ -71,6 +72,7 @@ class RegisterController extends Controller
             'group_name' => $data['group_name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            // 'is_admin' => $data['is_admin']->nullable,
         ]);
     }
 }
