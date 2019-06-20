@@ -20,9 +20,6 @@ Route::get('/event_create', 'HomeController@create')->name('event_create');
 Route::post('/post', 'HomeController@post')->name('post');
 Route::get('/user/{id}/edit', 'UserController@edit');
 Route::get('/user/{id}/update', 'UserController@update');
-Route::get('/user/{id}/set', 'UserController@set');
-Route::get('/user/{id}/supporter_update', 'UserController@supporter_update');
->>>>>>> Stashed changes
 Route::get('/event_list', 'EventController@list')->name('event_list');
 Route::get('/event_info', 'EventController@info')->name('event_info');
 
