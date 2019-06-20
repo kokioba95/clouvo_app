@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 use App\User;
 use Illuminate\Support\Facades\Auth;
 use Validator;
@@ -16,7 +20,6 @@ class UserController extends Controller
         $user = User::find($id);
         return view('profile_edit', compact('user'));
     }
-
     public function update(EditProfile $request, $id)
     {
         $user = User::find($id);

@@ -12,10 +12,12 @@ class EventController extends Controller
 {
     public function list()
     {
-        return view('event_list');
+        $events = Event::get();
+        return view('event_list',compact('events'));
     }
-    public function info()
+    public function info($id)
     {
-        return view('event_info');
+        $event = Event::find($id);
+        return view('event_info', compact('event'));
     }
 }
