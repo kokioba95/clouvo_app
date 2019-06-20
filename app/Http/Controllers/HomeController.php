@@ -37,9 +37,7 @@ class HomeController extends Controller
 
     public function post(Request $request)
     {
-        // Auth::user()->events()->create()
         $event = new Event;
-        // dd($event);
         $event->user_id = Auth::user()->id;
         $event->event_title = $request->input('event_title');
         $event->representative_name = $request->input('representative_name');
@@ -49,7 +47,6 @@ class HomeController extends Controller
         $event->event_info = $request->input('event_info');
         $event->image = 'image';
         $event->save();
-        //Auth::user()->events()->save($event);
         return redirect('/event_list');
     }
 
