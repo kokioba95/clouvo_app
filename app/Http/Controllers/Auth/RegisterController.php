@@ -72,7 +72,6 @@ class RegisterController extends Controller
             'group_name' => $data['group_name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-            // 'is_admin' => $data['is_admin']->nullable,
         ]);
     }
 }

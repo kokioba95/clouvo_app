@@ -6,10 +6,6 @@
         <div class="col-sm-1">
         </div>
         <div class="col-sm-10" style="background-color:white">
-        <div>
-
-        
-        </div>
             <div class="row">
                 <div class="col-sm-2">
                 </div>
@@ -21,7 +17,6 @@
                     <div class="col-sm-4">
                         @if (auth()->user()->is_admin)
                             <a class="btn btn-primary" href="/{{$event->id}}/delete" role="button">Delete</a>
-                        @else
                         @endif
                     </div>
                 </div>
