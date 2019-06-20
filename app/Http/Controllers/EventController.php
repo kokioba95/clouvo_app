@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\User;
+use App\Event;
+use Illuminate\Support\Facades\Auth;
+
 class EventController extends Controller
 {
     public function list()
