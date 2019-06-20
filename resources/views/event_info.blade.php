@@ -10,9 +10,16 @@
                 <div class="col-sm-2">
                 </div>
                 <div class="col-sm-10">
-                    <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-8">
                         <h1>{{ $event->event_title }}</h1>
                     </div>
+                    <div class="col-sm-4">
+                        @if (auth()->user()->is_admin)
+                            <a class="btn btn-primary" href="/{{$event->id}}/delete" role="button">Delete</a>
+                        @endif
+                    </div>
+                </div>
                     <div class="row col-sm-12">
                         <div class="col-sm-1"></div>
                         <div class="col-sm-11">
@@ -90,9 +97,6 @@
                 <div class="col-sm-3"></div>
             </div>
             -->
-
-
-
         </div>
         <div class="col-sm-1">
         </div>
