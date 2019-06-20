@@ -34,54 +34,54 @@
                             <div class="col-sm-6">
                                 <select name="area" id="area_" class="select01">
                                     <option value="selected=selected">-AREA-</option>
-                                    <option value="1">Hokaido</option>
-                                    <option value="2">Aomori</option>
-                                    <option value="3">Iwate</option>
-                                    <option value="4">Miyagi</option>
-                                    <option value="5">Akita</option>
-                                    <option value="6">Yamagata</option>
-                                    <option value="7">Fukushima</option>
-                                    <option value="8">Ibaraki</option>
-                                    <option value="9">Tochigi</option>
-                                    <option value="10">Gunma</option>
-                                    <option value="11">Saitama</option>
-                                    <option value="12">Chiba</option>
-                                    <option value="13">Tokyo</option>
-                                    <option value="14">Kanagawa</option>
-                                    <option value="15">Niigata</option>
-                                    <option value="16">Toyama</option>
-                                    <option value="17">Ishikawa</option>
-                                    <option value="18">Fukui</option>
-                                    <option value="19">Yamanashi</option>
-                                    <option value="20">Nagano</option>
-                                    <option value="21">Gifu</option>
-                                    <option value="22">Shizuoka</option>
-                                    <option value="23">Aichi</option>
-                                    <option value="24">Mie</option>
-                                    <option value="25">Wakayama</option>
-                                    <option value="26">Shiga</option>
-                                    <option value="27">Kyoto</option>
-                                    <option value="28">Osaka</option>
-                                    <option value="29">Hyogo</option>
-                                    <option value="30">Nara</option>
-                                    <option value="31">Tokushima</option>
-                                    <option value="32">Kagawa</option>
-                                    <option value="33">Ehime</option>
-                                    <option value="34">Kochi</option>
-                                    <option value="35">Yamaguchi</option>
-                                    <option value="36">Tottori</option>
-                                    <option value="37">Shimane</option>
-                                    <option value="38">Okayama</option>
-                                    <option value="39">Hiroshima</option>
-                                    <option value="40">Fukuoka</option>
-                                    <option value="41">Saga</option>
-                                    <option value="42">Nagasaki</option>
-                                    <option value="43">Kumamoto</option>
-                                    <option value="44">Oita</option>
-                                    <option value="45">Miyazaki</option>
-                                    <option value="46">Kagoshima</option>
-                                    <option value="47">Okinawa</option>
-                                    <option value="48">other country</option>
+                                    <option value="Hokaido">Hokaido</option>
+                                    <option value="Aomori">Aomori</option>
+                                    <option value="Iwate">Iwate</option>
+                                    <option value="Miyagi">Miyagi</option>
+                                    <option value="Akita">Akita</option>
+                                    <option value="Yamagata">Yamagata</option>
+                                    <option value="Fukushima">Fukushima</option>
+                                    <option value="Ibaraki">Ibaraki</option>
+                                    <option value="Tochigi">Tochigi</option>
+                                    <option value="Gunma">Gunma</option>
+                                    <option value="Saitama">Saitama</option>
+                                    <option value="Chiba">Chiba</option>
+                                    <option value="Tokyo">Tokyo</option>
+                                    <option value="Kanagawa">Kanagawa</option>
+                                    <option value="Niigata">Niigata</option>
+                                    <option value="Toyama">Toyama</option>
+                                    <option value="Ishikawa">Ishikawa</option>
+                                    <option value="Fukui">Fukui</option>
+                                    <option value="Yamanashi">Yamanashi</option>
+                                    <option value="Nagano">Nagano</option>
+                                    <option value="Gifu">Gifu</option>
+                                    <option value="Shizuoka">Shizuoka</option>
+                                    <option value="Aichi">Aichi</option>
+                                    <option value="Mie">Mie</option>
+                                    <option value="Wakayama">Wakayama</option>
+                                    <option value="Shiga">Shiga</option>
+                                    <option value="Kyoto">Kyoto</option>
+                                    <option value="Osaka">Osaka</option>
+                                    <option value="Hyogo">Hyogo</option>
+                                    <option value="Nara">Nara</option>
+                                    <option value="Tokushima">Tokushima</option>
+                                    <option value="Kagawa">Kagawa</option>
+                                    <option value="Ehime">Ehime</option>
+                                    <option value="Kochi">Kochi</option>
+                                    <option value="Yamaguchi">Yamaguchi</option>
+                                    <option value="Tottori">Tottori</option>
+                                    <option value="Shimane">Shimane</option>
+                                    <option value="Okayama">Okayama</option>
+                                    <option value="Hiroshima">Hiroshima</option>
+                                    <option value="Fukuoka">Fukuoka</option>
+                                    <option value="Saga">Saga</option>
+                                    <option value="Nagasaki">Nagasaki</option>
+                                    <option value="Kumamoto">Kumamoto</option>
+                                    <option value="Oita">Oita</option>
+                                    <option value="Miyazaki">Miyazaki</option>
+                                    <option value="Kagoshima">Kagoshima</option>
+                                    <option value="Okinawa">Okinawa</option>
+                                    <option value="Other country">other country</option>
                                 </select>
                             </div>
                         </div>
@@ -92,17 +92,17 @@
                             <div class="col-sm-6">
                             <select name="Category" id="category" class="Right">
                                 <option value="selected=selected">-CATEGORY-</option>
-                                <option value="1">Local Community</option>
-                                <option value="2">Education</option>
-                                <option value="3">Human</option>
-                                <option value="4">Welfare</option>
-                                <option value="5">other</option>
+                                <option value="Local Community">Local Community</option>
+                                <option value="Education">Education</option>
+                                <option value="Human">Human</option>
+                                <option value="Welfare">Welfare</option>
+                                <option value="Other">other</option>
                             </select>
                             </div>
                         </div>
 
-                        <h5>Event info</h5>
-                        <textarea class="form-control form-group" name="event_info" rows="3" placeholder="Event info here"></textarea>
+                        <h5>Event info & Contact info</h5>
+                        <textarea class="form-control form-group" name="event_info" rows="6" placeholder="Event info & Contact info here"></textarea>
                         <div align="right">
                             <input type="submit" class="btn btn-primary" value="Post" style="width:170px;">
                         </div>

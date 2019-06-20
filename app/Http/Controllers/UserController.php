@@ -16,7 +16,6 @@ class UserController extends Controller
         $user = User::find($id);
         return view('profile_edit', compact('user'));
     }
-
     public function update(EditProfile $request, $id)
     {
         $user = User::find($id);

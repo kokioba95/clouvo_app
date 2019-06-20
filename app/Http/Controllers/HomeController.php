@@ -34,22 +34,20 @@ class HomeController extends Controller
     {
         return view('event_create', compact('user'));
     }
-    
-    // public function post(Request $request)
-    // {
-    //     // Auth::user()->events()->create()
-    //     $event = new Event;
-    //     // dd($event);
-    //     $event->user_id = Auth::user()->id;
-    //     $event->event_title = $request->input('event_title');
-    //     $event->representative_name = $request->input('representative_name');
-    //     $event->date = $request->input('event_date');
-    //     $event->area = $request->input('area');
-    //     $event->category = $request->input('Category');
-    //     $event->event_info = $request->input('event_info');
-    //     $event->image = 'image';
-    //     $event->save();
-    //     //Auth::user()->events()->save($event);
-    //     return redirect('/my_profile');
-    // }
+
+    public function post(Request $request)
+    {
+        $event = new Event;
+        $event->user_id = Auth::user()->id;
+        $event->event_title = $request->input('event_title');
+        $event->representative_name = $request->input('representative_name');
+        $event->date = $request->input('event_date');
+        $event->area = $request->input('area');
+        $event->category = $request->input('Category');
+        $event->event_info = $request->input('event_info');
+        $event->image = 'image';
+        $event->save();
+        return redirect('/event_list');
+    }
+
 }

@@ -9,7 +9,6 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <title>Clou-Vo</title>
     </head>
-    <!--
     <div class="text-rigth full-height" style="background-color:#f08300">        
         @if (Route::has('login'))
             <div class="text-right links">
@@ -25,7 +24,6 @@
             </div>
         @endif
     </div>
-    -->
 
             <body>
                 <div>
@@ -76,9 +74,19 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-3 text-center" id="search_bar" style="background-color:#F2F4F4; height:350px;">
+
+                                    <div class="col-sm-3 text-center " id="search_bar" style="background-color:#F2F4F4; height:350px;">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
                                     <h3>Find Events</h3>
                                     <br>
+                                        <span class="align-middle">
+                                            <a class="btn btn-warning py-1 md-2" href="/event_list" role="button">Event List</a>
+                                        </span>
+                                    <br>
+                                        <!--
                                         <form class="d-flex justify-content-center " id="area_search" action="/searchresult" accept-charset="UTF-8" method="get">
                                             <select name="area[]" id="area_" class="select01">
                                                 <option value="">-AREA-</option>
@@ -158,6 +166,7 @@
                                             <button type="submit" class="d-flex justify-content-center">SEARCH
                                             </button>
                                         </form>
+                                        -->
                                     </div>
                             
                                         <div class="row card-group1" style="width: 100%;">

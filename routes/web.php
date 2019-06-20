@@ -21,6 +21,6 @@ Route::post('/post', 'HomeController@post')->name('post');
 Route::get('/user/{id}/edit', 'UserController@edit');
 Route::get('/user/{id}/update', 'UserController@update');
 Route::get('/event_list', 'EventController@list')->name('event_list');
-Route::get('/event_info', 'EventController@info')->name('event_info');
+Route::get('/{id}/event_info', 'EventController@info')->name('event_info');
 
 
